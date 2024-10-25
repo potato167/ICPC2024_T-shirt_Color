@@ -1,0 +1,58 @@
+count : 141
+
+-----------------
+cloth color
+
+blue                 :  36
+black                :  29
+vinous               :  25
+lilac                :  11
+red                  :  10
+green                :   9
+grey                 :   8
+orange               :   6
+yellow               :   4
+light green          :   3
+
+-----------------
+text color
+
+white                :  91
+yellow               :  24
+black                :  11
+red                  :   8
+blue                 :   6
+light green          :   1
+
+-----------------
+color pair
+
+blue + white         :  26
+vinous + white       :  23
+black + white        :  16
+black + yellow       :   9
+red + white          :   8
+lilac + white        :   7
+blue + yellow        :   7
+grey + black         :   4
+green + white        :   4
+grey + white         :   3
+black + red          :   3
+blue + red           :   3
+orange + black       :   3
+light green + white  :   3
+lilac + yellow       :   2
+green + red          :   2
+orange + blue        :   2
+vinous + yellow      :   2
+green + yellow       :   2
+red + yellow         :   2
+yellow + black       :   2
+yellow + blue        :   2
+green + black        :   1
+grey + light green   :   1
+lilac + blue         :   1
+lilac + black        :   1
+black + blue         :   1
+orange + white       :   1
+
