@@ -11,15 +11,12 @@ sheet = workbook['Sheet1']
 
 clot = get_value_list(sheet['D4:D49']) + get_value_list(sheet['D51:D145'])
 text = get_value_list(sheet['F4:F49']) + get_value_list(sheet['F51:F145'])
-pair = [str(clot[i] + " + " + text[i]) for i in range(len(text))]
+X = max(len(x) for x in clot)
+Y = max(len(y) for y in clot)
+pair = [f"{clot[i]:<{X}} + {text[i]:<{Y}}" for i in range(len(text))]
 print(f"count : {len(text)}")
 print()
 
-L = 0
-for x in pair:
-    L = max(L, len(x))
-
-L += 1
 
 def out(name, lis):
     print("-----------------")
@@ -27,8 +24,9 @@ def out(name, lis):
     print()
     counter = Counter(lis)
     sorted_elements = counter.most_common()
+    L = max(len(x) for x in lis)
     for x in sorted_elements:
-        print(f"{x[0]:<{L}} : {x[1]:>{3}}")
+        print(f"{x[0]:<{L + 1}} : {x[1]:>{3}}")
     print()
 
 
